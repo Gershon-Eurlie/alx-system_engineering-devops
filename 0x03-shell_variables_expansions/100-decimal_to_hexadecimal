@@ -1,2 +1,2 @@
 #!/bin/bash
-read DECIMAL $(echo "obase=16;$DECIMAL" | bc)\n
+printf '%x\n' 26560
